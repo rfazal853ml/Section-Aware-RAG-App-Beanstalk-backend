@@ -248,7 +248,7 @@ async def list_documents():
             detail=f"Error retrieving documents: {str(e)}"
         )
 
-# GitHub action triggerssss
+# GitHub action triggerss
 if __name__ == "__main__":
     logger.info("Starting FastAPI server...")
     import uvicorn
