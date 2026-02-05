@@ -102,10 +102,10 @@ async def root():
 
 @app.post(
     "/query",
-    response_model=QueryResponse,
-    tags=["Query"],
-    summary="Query the RAG system",
-    description="Submit a question to the RAG system and receive an answer with sources"
+    # response_model=QueryResponse,
+    # tags=["Query"],
+    # summary="Query the RAG system",
+    # description="Submit a question to the RAG system and receive an answer with sources"
 )
 async def query_documents(request: QueryRequest):
     """
